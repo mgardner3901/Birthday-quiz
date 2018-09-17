@@ -31,3 +31,12 @@ Example Session
   And the day? 11
   Eric, you are a fall baby of the stone age.
 """
+
+name = input('What is your name? ')
+month = int(input('Hi '+name+ ', what is the name of the month were you born in? '))
+year = int(input('And what year were you born in, '+name+ '? '))
+day = int(input('And the day? '))
+
+if month == int('October') and day = int('31'): 
+    print ('You were born on Halloween! ')
+
