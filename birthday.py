@@ -32,11 +32,18 @@ Example Session
   Eric, you are a fall baby of the stone age.
 """
 
+from datetime import datetime
+from calendar import month_name
+todaymonth = datetime.today().month
+todaydate = datetime.today().day
+
+
 a = input("Hello, what is your name? ")
 c = str("Hi " + a + ", what was the name of the month you were born in? ") 
 b = input(c)
 d = int(input("And what year were you born in, " + a + "? "))
 e = int(input("And the day? "))
+
 
 months = ["" , "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ""]
 month = months[todaymonth]
